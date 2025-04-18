@@ -1,4 +1,3 @@
-// FAQ Toggle
 document.querySelectorAll(".faq-toggle").forEach((button) => {
     button.addEventListener("click", () => {
       const content = button.nextElementSibling;
@@ -41,14 +40,13 @@ document.querySelectorAll(".faq-toggle").forEach((button) => {
     loginModal.classList.add("hidden");
   });
 
-  // Close modal when clicking outside
+  // Close modal
   loginModal.addEventListener("click", (e) => {
     if (e.target === loginModal) {
       loginModal.classList.add("hidden");
     }
   });
 
-  // Smooth scrolling for anchor links
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
