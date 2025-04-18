@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portail Entreprise | Services Professionnels</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body class="font-sans antialiased text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+      <div
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center space-x-2">
+          <div class="hero-gradient text-white p-2 rounded-lg">
+            <i class="fas fa-building text-xl"></i>
+          </div>
+          <span class="text-xl font-bold text-blueviolet-600">JBxDev solutions</span>
+        </div>
+        <nav class="hidden md:flex space-x-8">
+          <a
+            href="#services"
+            class="text-gray-600 hover:text-blue-600 font-medium"
+            >Services</a
+          >
+          <a href="#about" class="text-gray-600 hover:text-blue-600 font-medium"
+            >À propos</a
+          >
+          <a
+            href="#contact"
+            class="text-gray-600 hover:text-blue-600 font-medium"
+            >Contact</a
+          >
+          <a href="#client-area" class="text-blue-600 font-medium"
+            >Espace Client</a
+          >
+        </nav>
+        <button class="md:hidden text-gray-600">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white">
+      <div
+        class="container mx-auto px-4 py-24 flex flex-col md:flex-row items-center"
+      >
+        <div class="md:w-1/2 mb-12 md:mb-0">
+          <h1 class="text-4xl md:text-5xl font-bold mb-6">
+            Solutions professionnelles pour votre entreprise
+          </h1>
+          <p class="text-xl mb-8 opacity-90">
+            Optimisez vos processus métiers avec nos services sur mesure et
+            notre plateforme client dédiée.
+          </p>
+          <div
+            class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
+          >
+            <a
+              href="#services"
+              class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold text-center hover:bg-gray-100 transition"
+              >Nos services</a
+            >
+            <a
+              href="#client-area"
+              class="border-2 border-white px-6 py-3 rounded-lg font-semibold text-center hover:bg-white hover:text-blue-600 transition"
+              >Accès client</a
+            >
+          </div>
+        </div>
+        <div class="md:w-1/2 flex justify-center">
+          <img
+            src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="Business meeting"
+            class="rounded-xl shadow-2xl max-w-md w-full"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold mb-4">Nos Services Professionnels</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Nous proposons une gamme complète de services pour répondre à tous
+            vos besoins métiers.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Service 1 -->
+          <div class="bg-white p-8 rounded-xl shadow-md card-hover transition">
+            <div
+              class="bg-blue-100 text-blue-600 w-14 h-14 rounded-full flex items-center justify-center mb-6"
+            >
+              <i class="fas fa-chart-line text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-3">Consulting Stratégique</h3>
+            <p class="text-gray-600 mb-4">
+              Accompagnement personnalisé pour optimiser votre stratégie
+              d'entreprise et améliorer vos performances.
+            </p>
+            <a href="#" class="text-blue-600 font-medium flex items-center">
+              En savoir plus <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="bg-white p-8 rounded-xl shadow-md card-hover transition">
+            <div
+              class="bg-green-100 text-green-600 w-14 h-14 rounded-full flex items-center justify-center mb-6"
+            >
+              <i class="fas fa-laptop-code text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-3">Solutions Digitales</h3>
+            <p class="text-gray-600 mb-4">
+              Développement d'applications métiers et solutions web sur mesure
+              pour digitaliser vos processus.
+            </p>
+            <a href="#" class="text-blue-600 font-medium flex items-center">
+              En savoir plus <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="bg-white p-8 rounded-xl shadow-md card-hover transition">
+            <div
+              class="bg-purple-100 text-purple-600 w-14 h-14 rounded-full flex items-center justify-center mb-6"
+            >
+              <i class="fas fa-headset text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-3">Support Premium</h3>
+            <p class="text-gray-600 mb-4">
+              Assistance technique et fonctionnelle prioritaire avec nos experts
+              dédiés 24/7.
+            </p>
+            <a href="#" class="text-blue-600 font-medium flex items-center">
+              En savoir plus <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section client-->
+    <section id="client-area" class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <div
+          class="max-w-4xl mx-auto bg-gray-50 rounded-xl overflow-hidden shadow-lg"
+        >
+          <div class="md:flex">
+            <!-- Formulaire de connexion -->
+            <div class="md:w-1/2 p-10 login-form">
+              <h2 class="text-2xl font-bold mb-2">Accès Espace Client</h2>
+              <p class="text-gray-600 mb-8">
+                Connectez-vous pour accéder à vos services et documents.
+              </p>
+
+              <form id="loginForm" class="space-y-6">
+                <div>
+                  <label
+                    for="email"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                    >Email professionnel</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="votre@entreprise.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label
+                    for="password"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                    >Mot de passe</label
+                  >
+                  <input
+                    type="password"
+                    id="password"
+                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="••••••••"
+                    required
+                  />
+                </div>
+
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center">
+                    <input
+                      id="remember-me"
+                      name="remember-me"
+                      type="checkbox"
+                      class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                    />
+                    <label
+                      for="remember-me"
+                      class="ml-2 block text-sm text-gray-700"
+                      >Se souvenir de moi</label
+                    >
+                  </div>
+
+                  <a href="#" class="text-sm text-blue-600 hover:underline"
+                    >Mot de passe oublié?</a
+                  >
+                </div>
+
+                <button
+                  type="submit"
+                  class="w-full hero-gradient text-white py-3 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 font-medium transition"
+                >
+                  Se connecter
+                </button>
+              </form>
+            </div>
+
+            <!-- Dashboard -->
+            <div class="md:w-1/2 hero-gradient text-white p-10 hidden md:block">
+              <h3 class="text-xl font-bold mb-4">
+                Votre espace client sécurisé
+              </h3>
+              <p class="mb-8 opacity-90">
+                Accédez à toutes vos ressources en un seul endroit.
+              </p>
+
+              <div class="space-y-4">
+                <div
+                  class="dashboard-card bg-white bg-opacity-10 p-4 rounded-lg border border-white border-opacity-20"
+                >
+                  <div class="flex items-center">
+                    <div class="bg-white bg-opacity-20 p-2 rounded-lg mr-4">
+                      <i class="fas fa-file-invoice"></i>
+                    </div>
+                    <span>Documents & Factures</span>
+                  </div>
+                </div>
+
+                <div
+                  class="dashboard-card bg-white bg-opacity-10 p-4 rounded-lg border border-white border-opacity-20"
+                >
+                  <div class="flex items-center">
+                    <div class="bg-white bg-opacity-20 p-2 rounded-lg mr-4">
+                      <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <span>Analytics & Reporting</span>
+                  </div>
+                </div>
+
+                <div
+                  class="dashboard-card bg-white bg-opacity-10 p-4 rounded-lg border border-white border-opacity-20"
+                >
+                  <div class="flex items-center">
+                    <div class="bg-white bg-opacity-20 p-2 rounded-lg mr-4">
+                      <i class="fas fa-tools"></i>
+                    </div>
+                    <span>Outils métiers</span>
+                  </div>
+                </div>
+
+                <div
+                  class="dashboard-card bg-white bg-opacity-10 p-4 rounded-lg border border-white border-opacity-20"
+                >
+                  <div class="flex items-center">
+                    <div class="bg-white bg-opacity-20 p-2 rounded-lg mr-4">
+                      <i class="fas fa-comments"></i>
+                    </div>
+                    <span>Support en direct</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section à propos -->
+    <section id="about" class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-12 md:mb-0 md:pr-12">
+            <h2 class="text-3xl font-bold mb-6">
+              Notre Expertise à Votre Service
+            </h2>
+            <p class="text-gray-600 mb-6">
+              Fondée en 2023, notre entreprise s'est imposée comme un acteur clé
+              dans le domaine des services professionnels, accompagnant plus de
+              500 clients dans leur transformation digitale.
+            </p>
+            <p class="text-gray-600 mb-8">
+              Notre équipe d'experts pluridisciplinaires met à votre
+              disposition son savoir-faire pour proposer des solutions
+              adaptées à vos enjeux métiers.
+            </p>
+
+            <div class="grid grid-cols-2 gap-4">
+              <div class="bg-white p-4 rounded-lg shadow-sm">
+                <div class="text-blue-600 text-3xl font-bold mb-1">3+</div>
+                <div class="text-gray-600">Années d'expérience</div>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-sm">
+                <div class="text-blue-600 text-3xl font-bold mb-1">500+</div>
+                <div class="text-gray-600">Clients satisfaits</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:w-1/2">
+            <img
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Our team"
+              class="rounded-xl shadow-lg w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Temoignage -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold mb-4">Ils nous font confiance</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Découvrez ce que nos clients disent de notre collaboration.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Temoignage 1 -->
+          <div class="bg-gray-50 p-8 rounded-xl">
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400 mr-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-600 mb-6">
+              "Leur expertise nous a permis de digitaliser nos processus métiers
+              avec une solution sur mesure qui a transformé notre productivité."
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://randomuser.me/api/portraits/women/43.jpg"
+                alt="Client"
+                class="w-12 h-12 rounded-full mr-4"
+              />
+              <div>
+                <div class="font-medium">Sophie Martin</div>
+                <div class="text-sm text-gray-500">
+                  Directrice Financière, ABC Corp
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Temoignage 2 -->
+          <div class="bg-gray-50 p-8 rounded-xl">
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400 mr-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="text-gray-600 mb-6">
+              "L'accompagnement stratégique et la qualité du support ont dépassé
+              nos attentes. Un partenaire de confiance pour notre croissance."
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="Client"
+                class="w-12 h-12 rounded-full mr-4"
+              />
+              <div>
+                <div class="font-medium">Pierre Lambert</div>
+                <div class="text-sm text-gray-500">CEO, XYZ Industries</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Temoignage 3 -->
+          <div class="bg-gray-50 p-8 rounded-xl">
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400 mr-2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <p class="text-gray-600 mb-6">
+              "La plateforme client est intuitive et complète. Nous avons accès
+              à toutes nos données et outils en temps réel, où que nous soyons."
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://randomuser.me/api/portraits/women/65.jpg"
+                alt="Client"
+                class="w-12 h-12 rounded-full mr-4"
+              />
+              <div>
+                <div class="font-medium">Élodie Bernard</div>
+                <div class="text-sm text-gray-500">
+                  Directrice Opérationnelle, 123 Services
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section contact -->
+    <section id="contact" class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div
+          class="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden"
+        >
+          <div class="md:flex">
+            <div class="md:w-1/2 p-10">
+              <h2 class="text-2xl font-bold mb-2">Contactez-nous</h2>
+              <p class="text-gray-600 mb-8">
+                Notre équipe est à votre disposition pour répondre à vos
+                questions et étudier vos besoins.
+              </p>
+
+              <form class="space-y-6">
+                <div>
+                  <label
+                    for="contact-name"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                    >Nom complet</label
+                  >
+                  <input
+                    type="text"
+                    id="contact-name"
+                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="Votre nom"
+                  />
+                </div>
+
+                <div>
+                  <label
+                    for="contact-email"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    id="contact-email"
+                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="votre@email.com"
+                  />
+                </div>
+
+                <div>
+                  <label
+                    for="contact-company"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                    >Entreprise</label
+                  >
+                  <input
+                    type="text"
+                    id="contact-company"
+                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="Votre entreprise"
+                  />
+                </div>
+
+                <div>
+                  <label
+                    for="contact-message"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                    >Message</label
+                  >
+                  <textarea
+                    id="contact-message"
+                    rows="4"
+                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="Votre message"
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  class="w-full hero-gradient text-white py-3 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 font-medium transition"
+                >
+                  Envoyer le message
+                </button>
+              </form>
+            </div>
+
+            <div class="md:w-1/2 hero-gradient text-white p-10">
+              <h3 class="text-xl font-bold mb-6">Nos coordonnées</h3>
+
+              <div class="space-y-6">
+                <div class="flex items-start">
+                  <div class="bg-white bg-opacity-20 p-3 rounded-full mr-4">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium mb-1">Adresse</h4>
+                    <p class="opacity-90">
+                      123 Avenue des Entreprises<br />75000 Paris, France
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="bg-white bg-opacity-20 p-3 rounded-full mr-4">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium mb-1">Téléphone</h4>
+                    <p class="opacity-90">+33 1 23 45 67 89</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="bg-white bg-opacity-20 p-3 rounded-full mr-4">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium mb-1">Email</h4>
+                    <p class="opacity-90">contact@JBxDev solutions.com</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <div class="bg-white bg-opacity-20 p-3 rounded-full mr-4">
+                    <i class="fas fa-clock"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-medium mb-1">Horaires</h4>
+                    <p class="opacity-90">Lundi - Vendredi<br />9h00 - 18h00</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8">
+                <h4 class="font-medium mb-4">Suivez-nous</h4>
+                <div class="flex space-x-4">
+                  <a
+                    href="#"
+                    class="bg-white bg-opacity-20 p-3 rounded-full hover:bg-opacity-30 transition"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="bg-white bg-opacity-20 p-3 rounded-full hover:bg-opacity-30 transition"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="bg-white bg-opacity-20 p-3 rounded-full hover:bg-opacity-30 transition"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 max-w-3xl">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold mb-4">Questions fréquentes</h2>
+          <p class="text-gray-600">
+            Trouvez rapidement des réponses à vos interrogations.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <!-- FAQ Item 1 -->
+          <div class="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 focus:outline-none"
+            >
+              <span class="font-medium"
+                >Comment accéder à mon espace client?</span
+              >
+              <i
+                class="fas fa-chevron-down transition-transform duration-300"
+              ></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 pt-0">
+              <p class="text-gray-600">
+                Pour accéder à votre espace client, rendez-vous sur notre
+                portail et cliquez sur "Espace Client" en haut à droite.
+                Utilisez les identifiants qui vous ont été communiqués par email
+                lors de votre inscription. Si vous avez perdu vos identifiants,
+                utilisez la fonction "Mot de passe oublié".
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 focus:outline-none"
+            >
+              <span class="font-medium"
+                >Quels sont vos délais d'intervention?</span
+              >
+              <i
+                class="fas fa-chevron-down transition-transform duration-300"
+              ></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 pt-0">
+              <p class="text-gray-600">
+                Nos délais d'intervention varient selon le type de service
+                demandé. Pour les demandes standard, nous intervenons
+                généralement sous 48h. Les projets complexes font l'objet d'une
+                évaluation préalable et d'un calendrier personnalisé. Nos
+                clients Premium bénéficient d'une intervention garantie en moins
+                de 24h.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 focus:outline-none"
+            >
+              <span class="font-medium"
+                >Comment obtenir un devis personnalisé?</span
+              >
+              <i
+                class="fas fa-chevron-down transition-transform duration-300"
+              ></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 pt-0">
+              <p class="text-gray-600">
+                Vous pouvez demander un devis personnalisé en remplissant le
+                formulaire de contact ou en appelant directement notre service
+                commercial. Nous étudierons votre demande et vous enverrons une
+                proposition détaillée sous 2 jours ouvrés. Les clients disposant
+                d'un espace client peuvent également générer des devis
+                directement depuis leur interface.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              class="faq-toggle w-full flex justify-between items-center p-6 text-left hover:bg-gray-50 focus:outline-none"
+            >
+              <span class="font-medium">Quelles sont vos certifications?</span>
+              <i
+                class="fas fa-chevron-down transition-transform duration-300"
+              ></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 pt-0">
+              <p class="text-gray-600">
+                Notre entreprise est certifiée ISO 9001 pour la qualité de nos
+                processus, ISO 27001 pour la sécurité de l'information, et nous
+                sommes partenaire agréé des principales solutions technologiques
+                que nous déployons. Nos consultants possèdent des certifications
+                professionnelles dans leurs domaines respectifs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section CTA -->
+    <section class="py-16 text-white hero-gradient">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6">
+          Prêt à transformer votre entreprise?
+        </h2>
+        <p class="text-xl opacity-90 max-w-2xl mx-auto mb-8">
+          Découvrez comment nos solutions peuvent répondre à vos besoins
+          spécifiques et booster votre productivité.
+        </p>
+        <div
+          class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4"
+        >
+          <a
+            href="#contact"
+            class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition"
+            >Demander une démo</a
+          >
+          <a
+            href="tel:+33123456789"
+            class="border-2 border-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition"
+          >
+            <i class="fas fa-phone-alt mr-2"></i> Nous appeler
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="hero-gradient text-white pt-16 pb-8">
+      <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-4 gap-12 mb-12">
+          
+          <div>
+            <div class="flex items-center space-x-2 mb-6">
+              <div class="hero-gradient text-white p-2 rounded-lg">
+                <i class="fas fa-building text-xl"></i>
+              </div>
+              <span class="text-xl font-bold">JBxDev solutions</span>
+            </div>
+            <p class="text-gray-400 mb-6">
+              Solutions professionnelles pour optimiser votre entreprise et
+              accélérer votre croissance.
+            </p>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-400 hover:text-white transition">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-white transition">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-white transition">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+
+          
+          <div>
+            <h4 class="text-lg font-semibold mb-6">Services</h4>
+            <ul class="space-y-3">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Consulting Stratégique</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Solutions Digitales</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Support Premium</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Formation</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Audit & Optimisation</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          
+          <div>
+            <h4 class="text-lg font-semibold mb-6">Entreprise</h4>
+            <ul class="space-y-3">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >À propos</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Notre équipe</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Carrières</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Actualités</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Partenaires</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          
+          <div>
+            <h4 class="text-lg font-semibold mb-6">Légal</h4>
+            <ul class="space-y-3">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >CGU</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Confidentialité</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Cookies</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Mentions légales</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >FAQ</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center"
+        >
+          <p class="text-gray-400 mb-4 md:mb-0">
+            © 2023 JBxDev solutions. Tous droits réservés.
+          </p>
+          <div class="flex space-x-6">
+            <a href="#" class="text-gray-400 hover:text-white transition"
+              >Plan du site</a
+            >
+            <a href="#" class="text-gray-400 hover:text-white transition"
+              >Accessibilité</a
+            >
+            <a href="#" class="text-gray-400 hover:text-white transition"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Login (masquée par default) -->
+    <div
+      id="loginModal"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 hidden"
+    >
+      <div class="bg-white rounded-xl shadow-2xl max-w-md w-full p-8">
+        <div class="flex justify-between items-center mb-6">
+          <h3 class="text-2xl font-bold">Connexion</h3>
+          <button id="closeModal" class="text-gray-500 hover:text-gray-700">
+            <i class="fas fa-times text-xl"></i>
+          </button>
+        </div>
+
+        <form class="space-y-6">
+          <div>
+            <label
+              for="modal-email"
+              class="block text-sm font-medium text-gray-700 mb-1"
+              >Email professionnel</label
+            >
+            <input
+              type="email"
+              id="modal-email"
+              class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              placeholder="votre@entreprise.com"
+              required
+            />
+          </div>
+
+          <div>
+            <label
+              for="modal-password"
+              class="block text-sm font-medium text-gray-700 mb-1"
+              >Mot de passe</label
+            >
+            <input
+              type="password"
+              id="modal-password"
+              class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              placeholder="••••••••"
+              required
+            />
+          </div>
+
+          <div class="flex items-center justify-between">
+            <div class="flex items-center">
+              <input
+                id="modal-remember"
+                name="remember-me"
+                type="checkbox"
+                class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+              />
+              <label
+                for="modal-remember"
+                class="ml-2 block text-sm text-gray-700"
+                >Se souvenir de moi</label
+              >
+            </div>
+
+            <a href="#" class="text-sm text-blue-600 hover:underline"
+              >Mot de passe oublié?</a
+            >
+          </div>
+
+          <button
+            type="submit"
+            class="w-full hero-gradient text-white py-3 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 font-medium transition"
+          >
+            Se connecter
+          </button>
+        </form>
+
+        <div class="mt-6 text-center">
+          <p class="text-gray-600">
+            Nouveau client?
+            <a href="#" class="text-blue-600 font-medium hover:underline"
+              >Créez un compte</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script href="script.js"></script>
+  </body>
+</html>

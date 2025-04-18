@@ -1,0 +1,23 @@
+.hero-gradient {
+    background: linear-gradient(
+      135deg,
+      #11141d 0%,
+      #274482 50%,
+      #0f3168 100%
+    );
+  }
+  .card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  .login-form {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+  .dashboard-card {
+    transition: all 0.3s ease;
+  }
+  .dashboard-card:hover {
+    transform: scale(1.03);
+  }
